@@ -1,5 +1,3 @@
-# Racket
-## the the Language-Oriented Programming Language
-### You can run app with run button or type in shell "racket main.rkt"
+# Advent of code 2022 solutions
 
-# Official website for docs and more information: https://racket-lang.org/
+Each day is in a separate branch named after that day.
