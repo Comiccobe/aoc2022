@@ -1,3 +1,3 @@
-# Advent of code 2022 solutions
+# Day 3 in NodeJS(Javascript)
 
 Each day is in a separate branch named after that day.
