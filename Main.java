@@ -5,11 +5,11 @@ import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     try {
-			Scanner scanner = new Scanner(new File("input.txt"));
+      Scanner scanner = new Scanner(new File("input.txt"));
       int part1 = 0;
       int part2 = 0;
 
-			while (scanner.hasNextLine()) {
+      while (scanner.hasNextLine()) {
         String line = scanner.nextLine();
         String[] parts = line.split(",");
         
@@ -30,13 +30,13 @@ class Main {
         if (min1 <= max2 && max1 >= min2) {
           part2++;
         }
-			}
-			scanner.close();
+      }
+      scanner.close();
 
       System.out.println("Part 1: " + part1);
       System.out.println("Part 2: " + part2);
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
+    } catch (FileNotFoundException e) {
+      e.printStackTrace();
+    }
   }
 }
