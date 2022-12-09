@@ -6,11 +6,11 @@ import "core:strings"
 
 main :: proc() {
   data, ok := os.read_entire_file("input.txt");
-	if !ok {
-		fmt.println("Can't read file.");
-		return;
-	}
-	defer delete(data, context.allocator);
+  if !ok {
+    fmt.println("Can't read file.");
+    return;
+  }
+  defer delete(data, context.allocator);
 
 	input := string(data);
   for character, i in input {
