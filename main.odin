@@ -12,7 +12,7 @@ main :: proc() {
   }
   defer delete(data, context.allocator);
 
-	input := string(data);
+  input := string(data);
   for character, i in input {
     if i > 2 {
       unique := true;
