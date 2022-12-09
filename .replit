@@ -1,0 +1,10 @@
+compile = ["erlc", "main.erl"]
+
+run = ["erl", "-noshell", "-s", "main", "start", "-s", "init", "stop"]
+
+hidden = ["**/*.beam"]
+
+entrypoint = "main.erl"
+
+[nix]
+channel = "stable-21_11"
